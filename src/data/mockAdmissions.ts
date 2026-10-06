@@ -1,0 +1,43 @@
+import { AdmissionEnquiry } from '../types';
+
+export const mockAdmissionInquiries: AdmissionEnquiry[] = [
+  {
+    id: 'adm-001',
+    studentName: 'B. Varun Reddy',
+    parentName: 'B. Venkat Reddy',
+    phone: '+91 94401 23456',
+    email: 'venkat.reddy@gmail.com',
+    gradeApplying: 'Class 10',
+    board: 'State Board',
+    message: 'Seeking morning batch for Class 10 Board preparation in Mathematics & Science.',
+    status: 'New',
+    createdAt: '2026-09-27 11:30 AM',
+    notes: 'Interested in early morning 6:00 AM batch.',
+  },
+  {
+    id: 'adm-002',
+    studentName: 'K. Sai Sahiti',
+    parentName: 'K. Rama Krishna',
+    phone: '+91 98480 98765',
+    email: 'ramakrishna.k@yahoo.com',
+    gradeApplying: 'Intermediate 1st Year',
+    board: 'MPC',
+    message: 'Enquiry for Intermediate Mathematics coaching by Mrs. Telu Dhana Lakshmi maam.',
+    status: 'Contacted',
+    createdAt: '2026-09-26 03:45 PM',
+    notes: 'Telephonic counseling completed. Demo class scheduled for Saturday.',
+  },
+  {
+    id: 'adm-003',
+    studentName: 'T. Charan Teja',
+    parentName: 'T. Srinivasa Rao',
+    phone: '+91 89781 12345',
+    email: 'srinivas.t@hotmail.com',
+    gradeApplying: 'Class 9',
+    board: 'CBSE',
+    message: 'Looking for foundation course in Maths and Physics.',
+    status: 'Visit Scheduled',
+    createdAt: '2026-09-25 10:15 AM',
+    notes: 'Visiting centre on Sunday at 11:00 AM.',
+  },
+];
